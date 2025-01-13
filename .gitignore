@@ -1,21 +1,18 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# See https://help.github.com/ignore-files/ for more about ignoring files.
 
 # dependencies
-node_modules
-.pnp
-.pnp.js
-build
+/node_modules
+
 # testing
-coverage
+/coverage
 
 # production
-.next
-out
+/build
 
 # misc
-.DS_Store
 .eslintcache
-.env
+.DS_Store
+.idea
 .env.local
 .env.development.local
 .env.test.local
@@ -26,6 +23,3 @@ yarn-debug.log*
 yarn-error.log*
 __*
 .next/*
-
-# vscode debug logs
-debug.log
