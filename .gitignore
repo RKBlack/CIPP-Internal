@@ -27,3 +27,12 @@ yarn-error.log*
 
 # vscode debug logs
 debug.log
+
+# jetbrains
+.idea
+
+# azurite
+__*
+AzuriteConfig
+# Claude/Cursor worktrees and local AI tooling
+.claude/
